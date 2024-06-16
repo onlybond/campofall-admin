@@ -1,5 +1,5 @@
 import LanguageDropdown from '@/components/language-dropdown';
-import ComponentsPagesContactUsForm from '@/components/pages/contact-us/components-pages-contact-us-form';
+// import ComponentsPagesContactUsForm from '@/components/pages/contact-us/components-pages-contact-us-form';
 import { Metadata } from 'next';
 import React from 'react';
 
@@ -29,7 +29,7 @@ const ContactUsBoxed = () => {
                                 <h1 className="text-3xl font-extrabold uppercase !leading-snug text-primary md:text-4xl">Contact us</h1>
                                 <p className="text-base font-bold leading-normal text-white-dark">Submit your queries and we will get back to you as soon as possible.</p>
                             </div>
-                            <ComponentsPagesContactUsForm />
+                            {/* <ComponentsPagesContactUsForm /> */}
                         </div>
                     </div>
                 </div>

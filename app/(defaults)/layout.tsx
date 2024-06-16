@@ -4,7 +4,6 @@ import Header from '@/components/layouts/header';
 import MainContainer from '@/components/layouts/main-container';
 import Overlay from '@/components/layouts/overlay';
 import ScrollToTop from '@/components/layouts/scroll-to-top';
-import Setting from '@/components/layouts/setting';
 import Sidebar from '@/components/layouts/sidebar';
 import Portals from '@/components/portals';
 
@@ -15,11 +14,6 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
             <div className="relative">
                 <Overlay />
                 <ScrollToTop />
-
-                {/* BEGIN APP SETTING LAUNCHER */}
-                <Setting />
-                {/* END APP SETTING LAUNCHER */}
-
                 <MainContainer>
                     {/* BEGIN SIDEBAR */}
                     <Sidebar />

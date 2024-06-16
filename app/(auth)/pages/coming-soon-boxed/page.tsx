@@ -1,4 +1,3 @@
-import ComponentsPagesComingSoonForm from '@/components/pages/coming-soon/components-pages-coming-soon-form';
 import { Metadata } from 'next';
 import React from 'react';
 
@@ -24,7 +23,6 @@ const ComingSoonBoxed = () => {
                                 <h1 className="text-3xl font-extrabold uppercase !leading-snug text-primary md:text-4xl">Coming Soon</h1>
                                 <p className="text-base font-bold leading-normal text-white-dark">We will be here in a shortwhile.....</p>
                             </div>
-                            <ComponentsPagesComingSoonForm />
                             <p className="dark:text-white">© {new Date().getFullYear()}. CAMPofall All Rights Reserved.</p>
                         </div>
                     </div>
