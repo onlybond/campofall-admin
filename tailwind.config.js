@@ -62,6 +62,9 @@ module.exports = {
                     dark: '#888ea8',
                 },
             },
+            screens:{
+                'nd':'900px',
+            },
             fontFamily: {
                 nunito: ['var(--font-nunito)'],
             },
