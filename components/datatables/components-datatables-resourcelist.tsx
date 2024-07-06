@@ -131,7 +131,7 @@ const Resourcelist = () => {
                             <IconTrashLines />
                             Delete
                         </button>
-                        <Link href="/apps/invoice/add" className="btn btn-primary gap-2">
+                        <Link href="" className="btn btn-primary gap-2">
                             <IconPlus />
                             Add New
                         </Link>
@@ -190,10 +190,10 @@ const Resourcelist = () => {
                                         <button type="button" onClick={handleToggle}>
                                             {isChecked ? <IconXCircle className="h-5 w-5 text-danger" /> : <IconCircleCheck className="h-5 w-5 text-primary" />}
                                         </button>
-                                        <Link href="/apps/invoice/edit" className="flex hover:text-info">
+                                        <Link href="" className="flex hover:text-info">
                                             <IconPencil className="text-success" />
                                         </Link>
-                                        <Link href="/apps/invoice/preview" className="text-success">
+                                        <Link href="" className="text-success">
                                             <IconEye />
                                         </Link>
                                         <button type="button" className="flex hover:text-danger" onClick={(e) => deleteRow(id)}>
